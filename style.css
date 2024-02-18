@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.css,
+.html {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.css:hover,
+.html:hover {
+  background-color: rgb(172, 173, 173);
+}
+
+.img-css,
+.img-html {
+  display: none;
+  width: 150%;
+  margin-bottom: 10px;
+}
